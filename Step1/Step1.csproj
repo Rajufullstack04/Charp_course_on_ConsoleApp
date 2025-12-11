@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Method_params</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,6 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Program.cs" />
+    <Compile Include="10.ConditionalStatementes.cs" />
+    <Compile Include="11.Looping_Mechanisam.cs" />
+    <Compile Include="12.Mathod_Basic.cs" />
+    <Compile Include="13.Method_ReturnTypes.cs" />
+    <Compile Include="14.Method_Params.cs" />
+    <Compile Include="2.Datatypes.cs" />
+    <Compile Include="3.VarAndDynamic.cs" />
+    <Compile Include="4.StringExampule.cs" />
+    <Compile Include="5.StringMoreConcepts.cs" />
+    <Compile Include="6.TypeConverstion.cs" />
+    <Compile Include="7.Arrays.cs" />
+    <Compile Include="8.ConsoleReadLineDemo.cs" />
+    <Compile Include="8.Oprators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
