@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="1.Mathod_Revison.cs" />
+    <Compile Include="2.Method_Advanced.cs" />
+    <Compile Include="3.Method_Ref_Out.cs" />
+    <Compile Include="4.Sync_Call.cs" />
+    <Compile Include="5.AsychronousCall\1.Asyc_basic.cs" />
+    <Compile Include="5.AsychronousCall\2.Asyc_Call_EX.cs" />
+    <Compile Include="5.AsychronousCall\3.Async_OtherExampule.cs" />
+    <Compile Include="5.AsychronousCall\4.Async_With_Params.cs" />
+    <Compile Include="6.Extension_Methods.cs" />
+    <Compile Include="7.Extension_Method_Datatypes.cs" />
+    <Compile Include="8.ExceptionHandling.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

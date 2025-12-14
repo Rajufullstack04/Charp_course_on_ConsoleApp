@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Step4
+namespace Step5_Access_Modifires_ProjectC
 {
-    internal class Program
+    internal class Class1
     {
         static void Main(string[] args)
         {

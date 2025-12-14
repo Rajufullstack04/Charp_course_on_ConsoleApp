@@ -43,7 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="1.Delegate.cs" />
+    <Compile Include="2DelegateWithReturns.cs" />
+    <Compile Include="3.AnonymousMethods.cs" />
+    <Compile Include="4.AnonymousMethodLambada.cs" />
+    <Compile Include="5.LambdaWithReturnTypes.cs" />
+    <Compile Include="6.LambdasWithFuncDelegate.cs" />
+    <Compile Include="7.LambadasWithAction.cs" />
+    <Compile Include="8.LambdasWithPredicate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

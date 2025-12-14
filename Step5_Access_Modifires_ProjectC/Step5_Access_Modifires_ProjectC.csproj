@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB3C154F-2BBF-4155-95C6-D1F60488BAC9}</ProjectGuid>
+    <ProjectGuid>{602F3CF0-BD91-4981-9653-D5CBC4021EC9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Step4</RootNamespace>
-    <AssemblyName>Step4</AssemblyName>
+    <RootNamespace>Step5_Access_Modifires_ProjectC</RootNamespace>
+    <AssemblyName>Step5_Access_Modifires_ProjectC</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.Collections\1.ArrayExample.cs" />
-    <Compile Include="1.Collections\2.ArrayList.cs" />
-    <Compile Include="1.Collections\4.HashTabule.cs" />
-    <Compile Include="1.Collections\3.Dictionary.cs" />
-    <Compile Include="1.Collections\5.HashSet.cs" />
-    <Compile Include="1.Collections\6.List.cs" />
-    <Compile Include="1.Collections\7.Tuple.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Step5_Access_Modifires_ProjectB\Step5_Access_Modifires_ProjectB.csproj">
+      <Project>{de765ea9-6e9f-4105-9606-6fc451d6fe4b}</Project>
+      <Name>Step5_Access_Modifires_ProjectB</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

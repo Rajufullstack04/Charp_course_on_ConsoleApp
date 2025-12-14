@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,7 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="1.FieldBasics_Static.cs" />
+    <Compile Include="10.Inhiretence\1.ClassInhirentence.cs" />
+    <Compile Include="10.Inhiretence\2.InterFaceInhiretence.cs" />
+    <Compile Include="12.Abstraction\1.WashingMachinenes.cs" />
+    <Compile Include="13.Polymorophisam\1.CompailTimePolymorphisam.cs" />
+    <Compile Include="13.Polymorophisam\2.RunTimePolymorphisam.cs" />
+    <Compile Include="2.FieldBasics_Non_Static.cs" />
+    <Compile Include="3.Properties.cs" />
+    <Compile Include="4.ClassArrayAndPublicDemo.cs" />
+    <Compile Include="5.Consatructors.cs" />
+    <Compile Include="6.ConstractAndReadonly.cs" />
+    <Compile Include="7.NameSpeces\1.AllFiles.cs" />
+    <Compile Include="7.NameSpeces\2.ExcelFiles.cs" />
+    <Compile Include="7.NameSpeces\3.PPTFiles.cs" />
+    <Compile Include="7.NameSpeces\4.WordFiles.cs" />
+    <Compile Include="7.NameSpeces\5.MainProgram.cs" />
+    <Compile Include="8.StaticClass.cs" />
+    <Compile Include="9.LoggerFiles.cs" />
+    <Compile Include="11.Implementation\1.LionThings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

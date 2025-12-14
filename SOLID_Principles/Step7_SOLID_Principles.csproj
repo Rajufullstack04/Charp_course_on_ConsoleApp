@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB3C154F-2BBF-4155-95C6-D1F60488BAC9}</ProjectGuid>
+    <ProjectGuid>{143FCE79-2B75-4B69-A90E-FADCBF718952}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Step4</RootNamespace>
-    <AssemblyName>Step4</AssemblyName>
+    <RootNamespace>SOLID_Principles</RootNamespace>
+    <AssemblyName>SOLID_Principles</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.Collections\1.ArrayExample.cs" />
-    <Compile Include="1.Collections\2.ArrayList.cs" />
-    <Compile Include="1.Collections\4.HashTabule.cs" />
-    <Compile Include="1.Collections\3.Dictionary.cs" />
-    <Compile Include="1.Collections\5.HashSet.cs" />
-    <Compile Include="1.Collections\6.List.cs" />
-    <Compile Include="1.Collections\7.Tuple.cs" />
+    <Compile Include="1.S-%28SRP%29\WithoutSRP.cs" />
+    <Compile Include="1.S-%28SRP%29\WithSRP.cs" />
+    <Compile Include="2.O-%28OCP%29\WithOCP.cs" />
+    <Compile Include="2.O-%28OCP%29\WithoutOCP.cs" />
+    <Compile Include="3.L-%28LSP%29\WithLSP.cs" />
+    <Compile Include="3.L-%28LSP%29\WithoutLSP.cs" />
+    <Compile Include="4.I-%28ISP%29\With-ISP.cs" />
+    <Compile Include="4.I-%28ISP%29\Without-ISP.cs" />
+    <Compile Include="5.D-%28DIP%29\With-DIP.cs" />
+    <Compile Include="5.D-%28DIP%29\Without-DIP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

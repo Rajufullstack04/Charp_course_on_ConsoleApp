@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{143FCE79-2B75-4B69-A90E-FADCBF718952}</ProjectGuid>
+    <ProjectGuid>{8183CE81-249C-4BCD-A94C-C410D38BD062}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SOLID_Principles</RootNamespace>
-    <AssemblyName>SOLID_Principles</AssemblyName>
+    <RootNamespace>Step5_Access_Modifires</RootNamespace>
+    <AssemblyName>Step5_Access_Modifires</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ClassA.cs" />
+    <Compile Include="ClassB.cs" />
+    <Compile Include="ClassC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
